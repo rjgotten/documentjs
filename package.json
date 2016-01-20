@@ -23,10 +23,11 @@
     "release:major": "npm version major && npm publish"
   },
   "devDependencies": {
+    "connect": "^2.14.4",
+    "get-port": "^2.1.0",
     "mocha": ">= 1.18.0",
     "qunit-mocha-ui": "*",
-    "rimraf": "2.1",
-    "connect": "^2.14.4"
+    "rimraf": "2.1"
   },
   "dependencies": {
     "md5": "^2.0.0",
